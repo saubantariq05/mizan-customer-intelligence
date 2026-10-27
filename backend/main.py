@@ -27,6 +27,7 @@ app.add_middleware(
     "http://localhost:5173",
     "http://localhost:5174",
     "https://YOUR-FRONTEND-DOMAIN.vercel.app",
+    "https://mizan-vercel-deployment.vercel.app",
 ],
     allow_credentials=True,
     allow_methods=["*"],
