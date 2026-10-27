@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# Local datasets and model files
+*.csv
+*.xlsx
+*.pkl
+*.joblib
+
+# Editor files
+.vscode/
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+**/__pycache__/
+
+# Local test files
+backend/test_db.py
